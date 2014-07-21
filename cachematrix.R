@@ -1,7 +1,7 @@
 ## makeCacheMatrix makes a matrix, cacheSolve inverts this 
 ## matrix (if invertable) and stores the inverse in cache
 
-## makeCacheMatrix creates a matrix x.1 and a list of three functions:
+## makeCacheMatrix creates a matrix x and a list of three functions:
 ## get, setinverse, and getinverse
 
 makeCacheMatrix <- function(x = matrix()) {
